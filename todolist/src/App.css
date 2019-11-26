@@ -1,22 +1,43 @@
-.App {
-  text-align: center;
+body{
+  background-color: #ddd6f0;
+  
 }
 
-.App-logo {
-  height: 40vmin;
+.App{
+  background-color: #d6e9f0;
+  min-height: 500px;
+  width: 400px;
+  margin: 40px auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#to-do-form input{
+  background-color:#f8f8ff;
+  border: 0;
+  width: 200px;
+  height: 50px;
+  padding: 0 20px;
+  margin: 20px;
 }
 
-.App-link {
-  color: #09d3ac;
+#to-do-form input::placeholder{
+  color: rgba(0, 0, 0, 0.5);
 }
+
+#to-do-form input:focus,#to-do-form button:focus {
+  outline: none;
+}
+
+#to-do-form button{
+  height:50px;
+  width:80px;
+  border-radius:5px;
+  border: 0;
+  background-color: #90ee90;
+  cursor: pointer;
+  font-weight: bolder;
+}
+
+#to-do-form button:active{
+  background-color: #64e764;
+}
+
